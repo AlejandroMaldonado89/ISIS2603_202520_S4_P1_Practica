@@ -56,7 +56,7 @@ public class UbicacionBodegaServiceTest {
 void testCrearUbicacion(){
     UbicacionBodegaEntity nuevaUbicacion = factory.manufacturePojo(UbicacionBodegaEntity.class);
     nuevaUbicacion.setNumeroEstante(10);
-    nuevaUbicacion.setCanastaDeposita("xx");
+    nuevaUbicacion.setCanastaDeposita("xxx");
     nuevaUbicacion.setPesoMaximo(11);
     UbicacionBodegaEntity ubicacionCreada = ubicacionBodegaService.crearUbicacionBodega(nuevaUbicacion);
     assertNotNull(ubicacionCreada);

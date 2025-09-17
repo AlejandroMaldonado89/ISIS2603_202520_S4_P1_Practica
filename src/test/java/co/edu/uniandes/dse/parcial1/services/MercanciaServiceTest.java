@@ -45,7 +45,7 @@ public class MercanciaServiceTest {
     }
     private void insertData() {
     for (int i = 0; i < 3; i++) {
-        MercanciaEntity mercanciaEntity = new mercanciaEntity();
+        MercanciaEntity mercanciaEntity = new MercanciaEntity();
         mercanciaEntity.setNombre("Mercancia " + i);
         mercanciaEntity.setCodigoBarras(10+i);
         mercanciaEntity.setFechaRecepcion(java.time.LocalDateTime.now());

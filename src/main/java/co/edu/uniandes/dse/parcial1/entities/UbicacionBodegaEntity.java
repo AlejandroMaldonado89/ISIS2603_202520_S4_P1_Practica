@@ -12,9 +12,9 @@ import uk.co.jemos.podam.common.PodamExclude;
 @Entity
 public class UbicacionBodegaEntity extends BaseEntity{
    
-    private int numero_estante;
-    private String canasta_deposita;
-    private float peso_maximo;
+    private int NumeroEstante;
+    private String CanastaDeposita;
+    private float PesoMaximo;
 
     @PodamExclude
     @OneToMany

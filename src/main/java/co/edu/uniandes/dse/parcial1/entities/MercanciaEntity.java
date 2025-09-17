@@ -1,6 +1,7 @@
 package co.edu.uniandes.dse.parcial1.entities;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.ManyToOne;
@@ -11,10 +12,10 @@ import uk.co.jemos.podam.common.PodamExclude;
 @Entity
 public class MercanciaEntity extends BaseEntity{
    
-    private String nombre;
-    private int codigo_barras;
-    private LocalDate fecha_recepcion;
-    private int cantidad_disponible;
+    private String Nombre;
+    private int CodigoBarras;
+    private LocalDateTime FechaRecepcion;
+    private int CantidadDisponible;
 
     @PodamExclude
     @ManyToOne
